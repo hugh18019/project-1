@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hugh/Desktop/project-1/DFA.hpp
+vector
+-
+string
+-
+queue
+-
+
+/Users/hugh/Desktop/project-1/main.cpp
+iostream
+-
+DFA.hpp
+/Users/hugh/Desktop/project-1/DFA.hpp
+
